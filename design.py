@@ -3,7 +3,7 @@ import math
 import graph
 
 
-class Ui_MainWindow(object):
+class UiMainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(800, 366)
@@ -83,5 +83,5 @@ class Ui_MainWindow(object):
     def getFunc(self):
         return self.function
 
-    def getFuncString():
+    def getFuncString(self):
         return self.functionDisplay.toPlainText()
